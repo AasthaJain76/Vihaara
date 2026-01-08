@@ -39,3 +39,25 @@ Vihaara is a full-stack **AI-powered mental wellness platform** built using the 
 - Backend: **Render**
 
 ---
+## 📂 Project Structure
+
+<details>
+  <summary>📁 Vihaara/</summary>
+
+
+</details>
+
+<details>
+  <summary>📌 Folder Details</summary>
+
+- **client/components** → ⚛️ Reusable UI elements like buttons, modals, cards, navigation bars.  
+- **client/pages** → 📄 Pages like Dashboard, Journals, Mood Tracker, AI Insights.  
+- **client/services** → 🔗 Frontend service files to call backend APIs.  
+- **server/controllers** → 🎛️ Logic for creating, updating, fetching, and deleting data.  
+- **server/routes** → 🌐 Defines REST API endpoints and links them to controllers.  
+- **server/models** → 🗄️ MongoDB schemas using Mongoose for User, JournalEntry, MoodEntry, etc.  
+- **server/middleware** → 🛡️ Authentication, authorization, and error handling.  
+- **README.md** → 📝 Project documentation and setup instructions.  
+
+</details>
+
